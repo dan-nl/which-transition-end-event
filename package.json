@@ -1,0 +1,33 @@
+{
+  "name": "which-transition-end-event",
+  "version": "0.0.0",
+  "description": "returns the browser transition end event name and caches it for future use",
+  "author": "dan entous",
+  "license": "MIT",
+  "main": "src",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan-nl/which-transition-end-event.git"
+  },
+  "keywords": [
+    "transition",
+    "transitionend"
+  ],
+  "bugs": {
+    "url": "https://github.com/dan-nl/which-transition-end-event/issues"
+  },
+  "homepage": "https://github.com/dan-nl/which-transition-end-event#readme",
+  "scripts": {
+    "cover:browser": "npm test -- --coverage-report=lcov",
+    "cover:cli": "npm test -- --cov",
+    "cover:travis": "npm test -- --coverage-report=lcov --no-browser",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "eslint": "eslint .",
+    "test": "tap test/**/*.test.js --reporter spec"
+  },
+  "devDependencies": {
+    "eslint": "3.11.0",
+    "eslint-config-dan-nl": "git://github.com/dan-nl/eslint-config-dan-nl.git",
+    "tap": "8.0.1"
+  }
+}
