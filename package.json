@@ -1,6 +1,6 @@
 {
   "name": "which-transition-end-event",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "returns the browser transition end event name and caches it for future use",
   "author": "dan entous",
   "license": "MIT",
